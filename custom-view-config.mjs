@@ -13,16 +13,6 @@ const config = {
       url: '${env:APPLICATION_URL}'
     },
   },
-  headers: {
-    csp: {
-      'connect-src': [
-        'https://www.google.com/',
-      ],
-      'frame-src': [
-        'https://www.google.com/',
-      ],
-    }
-  },
   oAuthScopes: {
     view: ['view_products'],
     manage: [],
